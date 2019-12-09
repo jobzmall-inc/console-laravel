@@ -21,6 +21,7 @@
         "symfony/process": "^4.1",
         "symfony/finder": "^4.1",
         "symfony/filesystem": "^4.1",
+        "laravel/framework": "^6.0",
         "phploc/phploc": "~4.0"
     }
 }
