@@ -1,12 +1,12 @@
 {
-    "name": "lucid-arch/laravel-console",
-    "description": "The Command Line Interface for the Lucid Architecture",
+    "name": "jobzmall/lucid-laravel-console",
+    "description": "JobzMall's Version of The Command Line Interface for the Lucid Architecture",
     "keywords": ["laravel", "lucid", "mvc", "ddd", "domains", "architecture"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Abed Halawi",
-            "email": "abed.halawi@vinelab.com"
+            "name": "Logan Lehman",
+            "email": "logan@jobzmall.com"
         }
     ],
     "autoload": {
@@ -21,7 +21,6 @@
         "symfony/process": "^4.1",
         "symfony/finder": "^4.1",
         "symfony/filesystem": "^4.1",
-        "stevebauman/log-reader": "^1.1",
         "phploc/phploc": "~4.0"
     }
 }
