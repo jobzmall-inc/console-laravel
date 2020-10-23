@@ -20,7 +20,7 @@ class Service extends Component
     {
         $this->setAttributes([
             'name' => $name,
-            'slug' => snake_case($name),
+            'slug' => \Illuminate\Support\Str::snake($name),
             'realPath' => $realPath,
             'relativePath' => $relativePath,
         ]);

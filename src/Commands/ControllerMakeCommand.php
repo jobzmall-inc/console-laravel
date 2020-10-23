@@ -110,7 +110,7 @@ class ControllerMakeCommand extends SymfonyCommand
      */
     protected function parseName($name)
     {
-        return studly_case(preg_replace('/Controller(\.php)?$/', '', $name).'Controller');
+        return \Illuminate\Support\Str::studly(preg_replace('/Controller(\.php)?$/', '', $name).'Controller');
     }
 
     /**
